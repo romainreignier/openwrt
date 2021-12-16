@@ -457,6 +457,14 @@ define Device/ubnt_unifiac-pro
 endef
 TARGET_DEVICES += ubnt_unifiac-pro
 
+define Device/ubnt_unifi-ap-outdoor
+  $(Device/ubnt-bz)
+  $(Device/ubnt-unifi-jffs2)
+  DEVICE_MODEL := UniFi AP Outdoor
+  SUPPORTED_DEVICES += unifi-ap-outdoor
+endef
+TARGET_DEVICES += ubnt_unifi-ap-outdoor
+
 define Device/ubnt_unifi-ap-outdoor-plus
   $(Device/ubnt-bz)
   $(Device/ubnt-unifi-jffs2)

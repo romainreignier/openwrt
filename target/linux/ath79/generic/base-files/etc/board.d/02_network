@@ -117,6 +117,7 @@ ath79_setup_interfaces()
 	engenius,enstationac-v1|\
 	engenius,ews511ap|\
 	ocedo,ursus|\
+	ubnt,unifi-ap-outdoor|\
 	ubnt,unifi-ap-outdoor-plus)
 		ucidef_set_interface_lan "eth0 eth1"
 		;;
